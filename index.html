@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Rio Candra</title>
 </head>
+<style>
+    *:focus{
+        outline: none;
+    }
+</style>
 <body>
     <!-- <nav class="flex flex-row space-x-10 shadow-lg p-4">
         <a href="">Contact</a>
@@ -16,23 +21,94 @@
     <div class="flex lg:flex-row flex-col-reverse lg:m-24 lg:justify-evenly text-center justify-center mt-12">
         <div class="flex flex-col font-mono my-auto w-2/3 m-4 justify-center mx-auto">
             <p class="lg:text-[55px] text-[32px]">Hello, <br> I am Rio Candra Indrawan</p>
-            <p>And Welcome To my portfolio</p>
+            <p>And Welcome To my Personal Website</p>
             <p class="lg:mr-5">I am a junior web developer from south Kalimantan. I am currently continuing my studies at Telkom University, taking an informatics course. My preferred tools to build a website are PHP, HTML  Bootstrap, and Tailwind CSS. and I am studying to develop and build an mobile app.</p>
             <a href="assets/Rio's Resume.pdf" class="rounded-md bg-gray-200 w-fit p-2 md:mt-4 shadow hover:scale-110 mx-auto mb-7">Check Out My CV</a>
         </div>
         <div class="lg:w-96 lg:h-96 w-32 h-32 rounded-full bg-cover bg-center shadow-md lg:w-1/3 mx-auto" style="background-image: url('assets/me.jpg');">
         </div>
     </div>
-    <div class="flex flex-col bg-gray-600 text-slate-200 lg:p-12 p-6">
-        <p class="text-[44px]">Get in touch</p>
+    <div class="flex flex-col lg:m-24 m-12">
+        <p class="text-[30px] text-center">About Me</p>
+        <div class="flex flex-row items-center space-x-4">
+            <i class="fa-solid fa-school"></i>
+            <p class="text-lg font-semibold">My Education Profile</p>
+        </div>
+        <div class="flex lg:flex-row flex-col lg:justify-between mt-4">
+            <div class="flex flex-col ">
+                <li class="text-xl lg:text-sm">High School</li>
+                <div class="flex lg:flex-row flex-col  mt-2">
+                    <div class="w-32 h-32 bg-contain bg-center bg-no-repeat mx-auto" style="background-image: url('assets/logosmk.jpg')"></div>
+                    <div class="flex flex-col m-2 lg:space-y-1 space-y-2">
+                        <p class="text-2xl font-semibold text-center mx-text-left">SMK Telkom Banjarbaru</p>
+                        <div class="flex flex-row items-center space-x-2">
+                            <i class="fa-solid fa-clock"></i>
+                            <P>2020 - 2023</P>
+                        </div>
+                        <div class="flex flex-row items-center space-x-2">
+                            <i class="fa-solid fa-user-graduate"></i>
+                            <P>Software Engineering</P>
+                        </div>
+                        <div class="flex flex-row items-center space-x-2">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <P>Banjarbaru, South Kalimantan</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col mt-6 lg:mt-0">
+                <li class="text-xl lg:text-sm">University</li>
+                <div class="flex lg:flex-row flex-col space-x-4 mt-2">
+                    <div class="w-32 h-32 mt-2 bg-contain bg-center bg-no-repeat mx-auto lg:mx-0" style="background-image: url('assets/logouniv.png')"></div>
+                    <div class="flex flex-col m-2 lg:space-y-1 space-y-2">
+                        <p class="text-2xl font-semibold text-center lg:text-md">Telkom University Bandung</p>
+                        <div class="flex flex-row items-center space-x-2">
+                            <i class="fa-solid fa-clock"></i>
+                            <P>2023 - Present</P>
+                        </div>
+                        <div class="flex flex-row items-center space-x-2">
+                            <i class="fa-solid fa-user-graduate"></i>
+                            <P>Informatic degree</P>
+                        </div>
+                        <div class="flex flex-row items-center space-x-2">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <P>Bandung, West Java</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-col">
+        <div class="flex flex-col text-center">
+            <p class=" text-[34px]">Send me a message</p>
+            <p class="text-xl">Let me know what you think</p>
+        </div>
+        <div class="flex lg:flex-row flex-col justify-evenly mt-6 mx-6 lg:mx-0 space-y-3 lg:space-y-0">
+            <div class="flex flex-col">
+                <label for="">Your Name</label>
+                <input type="text " class="border-b-2 lg:w-96 py-2" placeholder="enter Your Name here">
+            </div>
+            <div class="flex flex-col">
+                <label for="">Your Email</label>
+                <input type="text " class="border-b-2 lg:w-96 py-2" placeholder="enter Your Email here">
+            </div>
+        </div>
+        <div class="flex flex-col mx-auto lg:mt-10 mx-6 mt-3">
+            <label for="" class="text-left">Your Message</label>
+            <textarea name="" id="" cols="42"  rows="2" placeholder="Let me know what you thinking" class="border-b-2 mt-4 lg:w-[800px] "></textarea>
+        </div>
+    </div>
+    <div class="flex flex-col bg-gray-600 text-slate-200 lg:p-12 p-6 mt-24">
+        <p class="text-[44px]">Get In touch</p>
         <div class="flex flex-row items-center space-x-4 lg:w-96 mt-4">
             <i class="fa-solid fa-location-dot"></i>
             <p>Citerep Sukapura No.20, Citeureup, Kec. Dayeuhkolot, Kabupaten Bandung, Jawa Barat 40257</p>
         </div>
-        <p class="font-semibold text-[20px] text-center mt-6">I am available at</p>
+        <p class="font-semibold text-[20px] text-center mt-6">Say Hello</p>
         <div class="flex flex-row justify-evenly mt-8">
-            <a href=""><i class="fa-brands fa-whatsapp fa-2xl" style="color: whitesmoke"></i></a>
-            <a href=""><i class="fa-solid fa-envelope fa-2xl" style="color: whitesmoke"></i></a>
+            <!-- <a href=""><i class="fa-brands fa-whatsapp fa-2xl" style="color: whitesmoke"></i></a>
+            <a href=""><i class="fa-solid fa-envelope fa-2xl" style="color: whitesmoke"></i></a> -->
             <a href="https://instagram.com/riocandzh"><i class="fa-brands fa-instagram fa-2xl" style="color: whitesmoke"></i></a>
             <a href="https://www.linkedin.com/in/rio-candra-indrawan-851061262/"><i class="fa-brands fa-linkedin fa-2xl" style="color: whitesmoke"></i></a>
             <a href="https://github.com/RioCandra62"><i class="fa-brands fa-github fa-2xl" style="color: whitesmoke"></i></a>
