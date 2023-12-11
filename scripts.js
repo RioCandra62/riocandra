@@ -28,3 +28,21 @@ function frontend(){
     backlangs.classList.add("hidden")
     frontlangs.classList.remove("hidden")
 }
+
+$(document).ready(function(){
+    $("#home").click(function() {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 1500);
+    });
+    $('#contact').click(function() {
+        $("html, body").animate({
+            scrollTop: $("#contactPage").offset().top - 120
+        }, 1500)
+    });
+    $("#project").click(function(){
+        $("html, body").animate({
+            scrollTop: $("#projectPage").offset().top - 50
+        }, 1500)
+    })
+});
